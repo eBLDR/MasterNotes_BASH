@@ -1,0 +1,14 @@
+.sh file is a Bourne shell script. They are used in many variations of UNIX-like operating systems.
+They have no "language" and are interpreted by the shell (interpreter of terminal commands) or if the first line (shebang line) is in the form:
+
+#!/path/to/interpreter
+
+they will use that particular interpreter. Usually, your file has the shebang line:
+
+	#!/bin/bash
+
+or
+
+	#!/usr/bin/env bash
+
+and that means that it uses Bourne Again Shell, so called bash.
