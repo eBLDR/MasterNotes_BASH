@@ -1,4 +1,8 @@
 #!/bin/bash
+# "-en" will not print a new line at the end
+echo -en "No new line, please!"
+echo "Nope!"
+
 # Escape characters
 echo "Hello \"World\"!"
 echo "Use a \\ backslash"

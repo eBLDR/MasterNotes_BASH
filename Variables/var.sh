@@ -8,9 +8,8 @@ echo $MY_MSG
 # Variables can be called from inside strings
 echo "Hi! $MY_MSG"
 
-echo "NO_MSG IS: $NO_MSG"  # Calling non-declared variables returns an empty string, no warning!
-
-MY_MSG=Hello World  # Error, will try to run command 'world' after assigning 'Hello'
+# Error, will try to run command 'world' after assigning 'Hello'
+MY_MSG=Hello World
 
 # expr is a math expression, it calculates and echoes
 x=1
