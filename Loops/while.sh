@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 INPUT_STRING=""
 
 # Expressiong between [ ]
@@ -9,7 +9,7 @@ do
   echo "You type: $INPUT_STRING"
 done
 
-# : always evaluates to true
+# ":" always evaluates to true
 while :
 do
   echo "Type more (^C to quit)"

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # Reading the file line by line
 while read f
 do

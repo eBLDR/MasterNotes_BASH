@@ -1,5 +1,5 @@
-#!/bin/sh
-MY_MSG=Krakatoa  # No spaces between the = sign
+#!/bin/bash
+MY_MSG=Krakatoa  # No spaces between the "="
 echo $MY_MSG
 
 MY_MSG="Hello World"

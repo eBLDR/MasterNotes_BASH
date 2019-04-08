@@ -1,0 +1,42 @@
+# COMPARATORS
+# Equal to string or number
+[ "$X" = "0" ]
+
+# Equal to string
+[ "$X" = "hello" ]
+
+# Not qual to string
+[ "$X" != "hello" ]
+
+# Equal to number
+[ "$X" -eq 0 ]
+
+# Not equal to number
+[ "$X" -ne 0 ]
+
+# Lesser than
+[ "$X" -lt "0" ]
+
+# Greater than
+[ "$X" -gt "0" ]
+
+# Lesser or equal than
+[ "$X" -le "0" ]
+
+# Greater or equal than
+[ "$X" -ge "0" ]
+
+# Is of nonzero length
+[ -n "$X" ]
+
+# Is path of real file
+[ -f "$X" ]
+
+# Is path of an executable file
+[ -x "$X" ]
+
+# Is newer than file
+[ "$X" -nt "file" ]
+
+# Is older than file
+[ "$X" -ot "file" ]

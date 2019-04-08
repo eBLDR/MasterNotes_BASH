@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 echo User name?
 
 # read will take the input and assign it to the var
@@ -16,6 +16,7 @@ echo "Let's create a file called ${MY_NAME}_file"
 
 # Use "" to avoid creating two or more files if $MY_NAME contains spaces
 touch "${MY_NAME}_file.deleteme"
+# Is preferable to always use the curly brackets
 
-# Escape the $
+# Escape the "$"
 echo "Gimme \$5!"
