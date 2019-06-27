@@ -4,14 +4,14 @@
 BASENAME=$0
 echo "Basename is: $BASENAME"
 
-# To pass additional parameters, run:
+# To pass additional arguments, run:
 # <script_name.sh> arg1 arg2 ...
 
 # If argument's name contains a space, use "arg 1"
 
-# "$#" is the number of parameters the script was called with
+# "$#" is the number of arguments the script was called with
 NUM_OF_PARAMS=$#
-echo "You called me with $NUM_OF_PARAMS parameters"
+echo "You called me with $NUM_OF_PARAMS arguments"
 
 ARGUMENT1=$1
 ARGUMENT2=$2
@@ -19,9 +19,12 @@ ARGUMENT2=$2
 
 # Each argument will be assigned by order.
 # If a variable number of arguments is passed, we can use a for loop:
-# "$@" represents all parameters
+# "$@" represents an array of all arguments
 echo "$@"
 for ARG in "$@"
 do
   echo ${ARG}
 done
+
+# $* is a string representation of the arguments array
+echo "$*"

@@ -1,9 +1,13 @@
-.sh file is a Bourne shell script. Shell scripts are used in many variations of UNIX-like operating systems.
-They have no "language" and are interpreted by the shell (interpreter of terminal commands) or if the first line (shebang line) is in the form:
+.sh file is a Bourne shell script. Shell is an interface between the user and
+the kernel.
+Shell scripts are used in many variations of UNIX-like operating systems, they
+have no "language"and are interpreted by the shell (interpreter of terminal
+commands) or if the first line (shebang line) is in the form:
 
 #!/path/to/interpreter
 
-The script will use that particular interpreter. Usually, your file has the shebang line:
+The script will use that particular interpreter. Usually, your file has the
+shebang line:
 
 	#!/bin/bash
 
