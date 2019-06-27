@@ -1,11 +1,12 @@
 # COMPARATORS
+
 # Equal to string or number
 [ "$X" = "0" ]
 
 # Equal to string
 [ "$X" = "hello" ]
 
-# Not qual to string
+# Not equal to string
 [ "$X" != "hello" ]
 
 # Equal to number

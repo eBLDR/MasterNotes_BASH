@@ -1,0 +1,7 @@
+command_1 && command_2
+
+"&&" command_2 will run  if command_1's exit code is 0 (no errors)
+
+command_1 || command_2
+
+"||" will run command_2 if command_1's exit code is not 0 (some error happened)

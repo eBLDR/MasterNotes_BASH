@@ -1,7 +1,8 @@
 #!/bin/bash
+
 INPUT_STRING=""
 
-# Expressiong between [ ]
+# Expression between [ ]
 while [ "$INPUT_STRING" != "bye" ]
 do
   echo "Type something (bye to quit)"
@@ -21,5 +22,3 @@ do
   fi
   echo "You typed: $INPUT_STRING_2"
 done
-
-

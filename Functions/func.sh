@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # Declare functions by ending with "("
 add_a_user() {
   # Body of the function
@@ -19,12 +20,12 @@ add_a_user() {
 
 add_a_user bob friedman "the boss"
 RETURN_CODE=$?
-echo $RETURN_CODE
+echo ${RETURN_CODE}
 
 add_a_user fred json "the sharp"
 RETURN_CODE=$?
-echo $RETURN_CODE
+echo ${RETURN_CODE}
 
 add_a_user troll big "FAIL"
 RETURN_CODE=$?
-echo $RETURN_CODE
+echo ${RETURN_CODE}

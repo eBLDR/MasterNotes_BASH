@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # Raising errors
 my_error() {
   return 1
@@ -9,4 +10,3 @@ if my_error; then
 else
   echo "Failure."
 fi
-

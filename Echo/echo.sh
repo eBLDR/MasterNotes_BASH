@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # Single-line comment
 : '
 Multi

@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # The next call will raise an error
 /usr/local/bin/non-existing-command
 

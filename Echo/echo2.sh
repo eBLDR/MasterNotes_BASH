@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # "-en" will not print a new line at the end
 echo -en "No new line, please!"
 echo "Nope!"

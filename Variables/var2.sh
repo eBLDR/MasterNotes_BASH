@@ -1,4 +1,5 @@
 #!/bin/bash
+
 echo User name?
 
 # read will take the input and assign it to the var
@@ -9,14 +10,13 @@ echo Type two words
 
 # read command automatically places ""
 read TWO_WORDS
-echo $TWO_WORDS
+echo ${TWO_WORDS}
 
 # Concatenation using variable - use curly brackets
 echo "Let's create a file called ${MY_NAME}_file"
 
 # Use "" to avoid creating two or more files if $MY_NAME contains spaces
 touch "${MY_NAME}_file.deleteme"
-# Is preferable to always use the curly brackets
 
 # Escape the "$"
 echo "Gimme \$5!"

@@ -11,7 +11,7 @@ or
 
 	#!/usr/bin/env bash
 
-and that means that it uses Bourne Again Shell, so called bash.
+and that means that it uses Bourne Again Shell, so called BASH.
 
 ";" represents a line feed, both equivalent.
 "\" represents line continuation.

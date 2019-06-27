@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # We can pass arguments in any order using flags, running (any -flag can be used):
 # <script_name.sh> -u <arg_1> -p <arg_2> -f <arg_3>
 # "OPTARG" refers that the argument is optional, so it may or it may not be passed
