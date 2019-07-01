@@ -1,0 +1,12 @@
+# Command to command - "piping"
+command_1 | command_2  # command_1 stdout to command_2 stdin
+
+# Command to file / file to command
+
+command > output.txt   # stdout to file, overwrite
+command >> output.txt  # stdout to file, append
+command 2> error.log   # stderr to file
+command 2>&1           # stderr to stdout
+command 2>/dev/null    # stderr to (null)
+command &>/dev/null    # stdout and stderr to (null)
+command < foo.txt      # feed content of file to stdin for command

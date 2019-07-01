@@ -1,0 +1,25 @@
+SYMBOL  EXPLANATION
+
+~       Current user's home directory (/home/someone/)
+
+*       Character matching, "any". Ex.: ls /etc/*c
+
+&       Run command in background.
+
+&&      Logic "and", for running multiple commands together.
+
+\   	Line continuation.
+
+.	    Current folder.
+
+..	    Parent folder.
+
+#       Comment.
+
+|	    "Piping", redirecting the output of one command to the input of another command. Ex.: cat /etc/profile | grep bash
+
+>	    Redirect the output of a command to a file (overwrite). Ex.: ls ~ > output.txt
+
+>>	    Redirect the output of a command to a file (append). Ex.: echo "First Line" >> output.txt
+
+<	    Feed the contents of a file into the input of a command. Ex.: grep bash < /etc/profile
