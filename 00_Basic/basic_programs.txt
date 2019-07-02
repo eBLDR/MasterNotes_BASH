@@ -164,6 +164,15 @@ alias <name>=<value>
 unalias <name>=<value>
     Remove an entry from the list of defined aliases.
 
+export
+    Set export attribute for shell variables.
+    -p Display a list of all exported variables and functions.
+
+see
+    Execute programs via entries in the mailcap file.
+    The mailcap file is read by the metamail program to determine how to
+    display non-text at the local site.
+
 # PROCESSES
 ps
     Report a snapshot of the current processes.
