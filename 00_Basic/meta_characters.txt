@@ -4,7 +4,7 @@ SYMBOL  EXPLANATION
 
 *       Character matching, "any". Ex.: ls /etc/*c
 
-&       Run command in background.
+&       Run command in background - command's output is still directed to current shell.
 
 &&      Logic "and", for running multiple commands together.
 

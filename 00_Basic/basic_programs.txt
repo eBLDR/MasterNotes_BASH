@@ -130,6 +130,9 @@ cat <file>
     Show file content.
     -n  Number all output lines.
 
+less <file>
+    Show file content interactive.
+
 head <file>
     Output the first part of the file.
     -n  The first number of lines.
