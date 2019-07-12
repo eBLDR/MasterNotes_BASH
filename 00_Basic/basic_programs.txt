@@ -198,6 +198,9 @@ kill <signal> <pid>
     Send a signal to a process.
     -l  List all available signal names.
 
+pkill <process_name>
+    Kills a process.
+
 systemctl <command> <service>
     Control the systemd system and service manager.
     list-units  List units that are currently in memory.
