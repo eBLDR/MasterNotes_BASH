@@ -5,7 +5,7 @@ help <cmd>
 man <cmd>
     Display information about programs.
 
-# System info
+# SYSTEM INFO
 who
     Show who is logged on.
 
@@ -90,6 +90,9 @@ tree
 
 cd <dir>
     Change the shell working directory.
+
+which <command>
+    Locates a command.
 
 find <starting_point> <expression>
     Search for files in a directory hierarchy.
@@ -233,6 +236,9 @@ lsof
 ping <hostname>
     Send ICMP ECHO_REQUEST to network hosts.
     -c <count>  Stop after sending <count> packets.
+
+traceroute
+    Display the route packets trace to network host.
 
 wget <url>
     Non-interactive network downloader.
