@@ -23,6 +23,14 @@ uname
     -a  Print all information.
 
 # HARDWARE INFO
+inxi
+    Display system information.
+    -F  Full output.
+    -m  Memory RAM usage.
+
+free
+    Display amount of used and free RAM memory.
+
 lscpu
     Display information about the CPU architecture.
 
