@@ -81,6 +81,7 @@ ls
     List directory contents.
     -a Do not ignore entries starting with '.'.
     -l List one file per line with extended information.
+    -1 One entry for line.
 
 tree
     List contents of directories in a tree-like format.
@@ -129,6 +130,10 @@ chown <owner>:<group> <file>
     -R  Operate files and directories recursively.
 
 # FILE CONTENT
+wc <file>
+    Count newline, word, characters, and bytes.
+    -c Bytes count.
+
 cat <file>
     Show file content.
     -n  Number all output lines.
