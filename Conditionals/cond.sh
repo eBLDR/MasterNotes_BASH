@@ -10,9 +10,7 @@ read VAR
 # Equality for string comparison, use "=" for equality, "!=" for inequality
 # Surrounding the variable with "" will ensure that all characters are taken,
 # otherwise only first word (separated by space) will be taken
-if [ "$VAR" = "bar" ]
-# If test is true
-then
+if [ "$VAR" = "bar" ]; then # If test is true
   echo "It was bar!"
 # If test is false
 else

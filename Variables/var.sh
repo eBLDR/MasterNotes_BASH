@@ -1,6 +1,6 @@
 #!/bin/bash
 
-MY_MSG=Krakatoa  # No spaces between the "="
+MY_MSG=Krakatoa # No spaces between the "="
 
 # Even though is not necessary, it is preferable to always use curly
 # brackets to surround the variables

@@ -1,9 +1,13 @@
 #!/bin/bash
 
-# Text surrounded by "`" will be executed as command
+# Text surrounded by "`" will be executed as command (legacy)
 # This will run the command and save the output to a variable
 c=`expr 5 + 9`
 echo ${c}
+
+# Equivalent to
+d=$(expr 5 + 9)
+echo ${d}
 
 MYNAME=`grep "^${USER}:" /etc/passwd`
 echo ${MYNAME}

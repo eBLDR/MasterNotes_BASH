@@ -21,8 +21,7 @@ ARGUMENT2=$2
 # If a variable number of arguments is passed, we can use a for loop:
 # "$@" represents an array of all arguments
 echo "$@"
-for ARG in "$@"
-do
+for ARG in "$@"; do
   echo ${ARG}
 done
 
